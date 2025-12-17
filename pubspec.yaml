@@ -1,0 +1,64 @@
+name: case_management_project
+description: "Disciplinary Case Management System - Flutter App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # 🧩 UI & Design
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  fluttertoast: ^8.2.4
+  font_awesome_flutter: ^10.7.0
+  lottie: ^3.1.2
+
+  # 🔥 Firebase Integrations
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.1.0
+
+  # 🧠 State Management & Utilities
+  provider: ^6.1.2
+  intl: ^0.20.2
+
+  # 📁 File & Image Handling
+  file_picker: ^8.0.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.3
+  path: ^1.9.0
+  sqflite: ^2.0.0+4
+  open_filex: ^4.5.0
+
+
+  # 🌐 External URL Launcher (for Gmail, Google Meet, Zoom, etc.)
+  url_launcher: ^6.3.0
+
+  # 🎨 Notifications & Snackbars
+  flutter_styled_toast: ^2.1.3
+  awesome_snackbar_content: ^0.1.3
+
+  # 🧱 Animations & Transitions (optional but improves UX)
+  animations: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 📁 Asset directories (images, icons, and fonts)
+  assets:
+    - assets/images/login_illustration.png
+    - assets/images/signup_illustration.png
+    - assets/icons/
+    - assets/fonts/
